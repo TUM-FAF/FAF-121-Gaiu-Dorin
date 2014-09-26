@@ -1,0 +1,21 @@
+﻿<Page
+    x:Class="MetroLastApp.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:MetroLastApp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="White">
+        <TextBlock x:Name="helloText_1" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Hello" VerticalAlignment="Top" Margin="647,50,0,0" Height="35" Width="76" FontSize="30" Foreground="#FF2E2D2D" FontStyle="Italic"/>
+        <TextBlock x:Name="helloText_1_Copy" HorizontalAlignment="Left" TextWrapping="Wrap" Text="World" VerticalAlignment="Top" Margin="647,90,0,0" Height="35" Width="89" FontSize="30" Foreground="#FF34714A" FontStyle="Italic" FontWeight="Bold" FontFamily="Hobo Std"/>
+        <TextBox x:Name="tBox1" HorizontalAlignment="Left" Height="542" Margin="36,152,0,0" TextWrapping="Wrap" Text="1st TextBox" VerticalAlignment="Top" Width="560" SelectionHighlightColor="#FF96959B" Background="#FF686666" Foreground="White" FontStyle="Italic"/>
+        <TextBox x:Name="tBox2" HorizontalAlignment="Left" Height="542" Margin="770,152,0,0" TextWrapping="Wrap" Text="2'nd TextBox" VerticalAlignment="Top" Width="560" Background="#FF014D1D" SelectionHighlightColor="#FF44D14B" BorderThickness="2" Foreground="White" FontStyle="Italic" FontFamily="SketchFlow Print"/>
+        <Button x:Name="btnMoveRight" Content="Move Right" HorizontalAlignment="Left" Margin="627,216,0,0" VerticalAlignment="Top" Foreground="#FF4D4343" Background="#FFF1F1F1" Click="btnMoveRight_Click" FontStyle="Italic"/>
+        <Button x:Name="btnClear" Content="Clear" HorizontalAlignment="Left" Margin="644,377,0,0" VerticalAlignment="Top" Foreground="#FF4D4343" Background="#FFD8F1E1" Click="btnClear_Click" FontWeight="Bold" FontStyle="Italic"/>
+        <Button x:Name="btnMoveLeft" Content="Move Left" HorizontalAlignment="Left" Margin="628,564,0,0" VerticalAlignment="Top" Foreground="#FF4D4343" Background="#FFF1F1F1" Click="btnMoveLeft_Click" FontStyle="Italic"/>
+        <Button x:Name="btnExit" Content="Exit" HorizontalAlignment="Left" Margin="7,7,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.482,0.478" Background="#FFF0D8D8" Click="btnExit_Click"/>
+
+    </Grid>
+</Page>

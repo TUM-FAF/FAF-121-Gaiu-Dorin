@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8417972619C20CC700E3CA1D /* StartGame.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8417972519C20CC700E3CA1D /* StartGame.xib */; };
+		8417972C19C20D5F00E3CA1D /* StartGameWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8417972B19C20D5F00E3CA1D /* StartGameWindowController.m */; };
+		8417972F19C217C300E3CA1D /* enemy_ship.png in Resources */ = {isa = PBXBuildFile; fileRef = 8417972D19C217C300E3CA1D /* enemy_ship.png */; };
+		8417973019C217C300E3CA1D /* explosion.png in Resources */ = {isa = PBXBuildFile; fileRef = 8417972E19C217C300E3CA1D /* explosion.png */; };
+		8417973519C2229400E3CA1D /* star_wars_MainTheme.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8417973419C2229400E3CA1D /* star_wars_MainTheme.mp3 */; };
+		8417973919C2238900E3CA1D /* explosion.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8417973819C2238900E3CA1D /* explosion.mp3 */; };
+		8417973B19C24F6700E3CA1D /* Red_Dot.png in Resources */ = {isa = PBXBuildFile; fileRef = 8417973A19C24F6700E3CA1D /* Red_Dot.png */; };
+		84240D9F19B8E6F500E3762C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84240D9E19B8E6F500E3762C /* Cocoa.framework */; };
+		84240DA919B8E6F500E3762C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84240DA719B8E6F500E3762C /* InfoPlist.strings */; };
+		84240DAB19B8E6F500E3762C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84240DAA19B8E6F500E3762C /* main.m */; };
+		84240DAF19B8E6F500E3762C /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 84240DAD19B8E6F500E3762C /* Credits.rtf */; };
+		84240DB219B8E6F500E3762C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84240DB119B8E6F500E3762C /* AppDelegate.m */; };
+		84240DB519B8E6F600E3762C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84240DB319B8E6F600E3762C /* MainMenu.xib */; };
+		84240DBE19B8E6F600E3762C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84240DBD19B8E6F600E3762C /* XCTest.framework */; };
+		84240DBF19B8E6F600E3762C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84240D9E19B8E6F500E3762C /* Cocoa.framework */; };
+		84240DC719B8E6F600E3762C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84240DC519B8E6F600E3762C /* InfoPlist.strings */; };
+		84240DC919B8E6F600E3762C /* Lab2_SimulatronTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84240DC819B8E6F600E3762C /* Lab2_SimulatronTests.m */; };
+		8446DA8119C100380039F0D1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8446DA8019C100380039F0D1 /* Images.xcassets */; };
+		8446DA8719C100E50039F0D1 /* cockpit_default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8446DA8319C100E50039F0D1 /* cockpit_default.png */; };
+		8446DA8C19C10BE30039F0D1 /* Ebon_Hawk.png in Resources */ = {isa = PBXBuildFile; fileRef = 8446DA8B19C10BE30039F0D1 /* Ebon_Hawk.png */; };
+		8491497F19C0D124009ADC71 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8491497E19C0D124009ADC71 /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84240DC019B8E6F600E3762C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84240D9319B8E6F500E3762C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84240D9A19B8E6F500E3762C;
+			remoteInfo = "Lab2-Simulatron";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8417972519C20CC700E3CA1D /* StartGame.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StartGame.xib; sourceTree = "<group>"; };
+		8417972A19C20D5F00E3CA1D /* StartGameWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StartGameWindowController.h; path = ../StartGameWindowController.h; sourceTree = "<group>"; };
+		8417972B19C20D5F00E3CA1D /* StartGameWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StartGameWindowController.m; path = ../StartGameWindowController.m; sourceTree = "<group>"; };
+		8417972D19C217C300E3CA1D /* enemy_ship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = enemy_ship.png; sourceTree = "<group>"; };
+		8417972E19C217C300E3CA1D /* explosion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = explosion.png; sourceTree = "<group>"; };
+		8417973419C2229400E3CA1D /* star_wars_MainTheme.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = star_wars_MainTheme.mp3; sourceTree = "<group>"; };
+		8417973819C2238900E3CA1D /* explosion.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = explosion.mp3; sourceTree = "<group>"; };
+		8417973A19C24F6700E3CA1D /* Red_Dot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Red_Dot.png; sourceTree = "<group>"; };
+		84240D9B19B8E6F500E3762C /* Lab2-Simulatron.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lab2-Simulatron.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84240D9E19B8E6F500E3762C /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		84240DA119B8E6F500E3762C /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		84240DA219B8E6F500E3762C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		84240DA319B8E6F500E3762C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		84240DA619B8E6F500E3762C /* Lab2-Simulatron-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Lab2-Simulatron-Info.plist"; sourceTree = "<group>"; };
+		84240DA819B8E6F500E3762C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		84240DAA19B8E6F500E3762C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84240DAC19B8E6F500E3762C /* Lab2-Simulatron-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Lab2-Simulatron-Prefix.pch"; sourceTree = "<group>"; };
+		84240DAE19B8E6F500E3762C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		84240DB019B8E6F500E3762C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		84240DB119B8E6F500E3762C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		84240DB419B8E6F600E3762C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		84240DBC19B8E6F600E3762C /* Lab2-SimulatronTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lab2-SimulatronTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84240DBD19B8E6F600E3762C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		84240DC419B8E6F600E3762C /* Lab2-SimulatronTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Lab2-SimulatronTests-Info.plist"; sourceTree = "<group>"; };
+		84240DC619B8E6F600E3762C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		84240DC819B8E6F600E3762C /* Lab2_SimulatronTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Lab2_SimulatronTests.m; sourceTree = "<group>"; };
+		8446DA8019C100380039F0D1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ../Images.xcassets; sourceTree = "<group>"; };
+		8446DA8319C100E50039F0D1 /* cockpit_default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cockpit_default.png; sourceTree = "<group>"; };
+		8446DA8B19C10BE30039F0D1 /* Ebon_Hawk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ebon_Hawk.png; sourceTree = "<group>"; };
+		8491497D19C0D124009ADC71 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8491497E19C0D124009ADC71 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84240D9819B8E6F500E3762C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84240D9F19B8E6F500E3762C /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84240DB919B8E6F600E3762C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84240DBF19B8E6F600E3762C /* Cocoa.framework in Frameworks */,
+				84240DBE19B8E6F600E3762C /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8417973319C2223000E3CA1D /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				8417973819C2238900E3CA1D /* explosion.mp3 */,
+				8417973419C2229400E3CA1D /* star_wars_MainTheme.mp3 */,
+			);
+			name = Sounds;
+			sourceTree = "<group>";
+		};
+		84240D9219B8E6F500E3762C = {
+			isa = PBXGroup;
+			children = (
+				84240DA419B8E6F500E3762C /* Lab2-Simulatron */,
+				84240DC219B8E6F600E3762C /* Lab2-SimulatronTests */,
+				84240D9D19B8E6F500E3762C /* Frameworks */,
+				84240D9C19B8E6F500E3762C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84240D9C19B8E6F500E3762C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84240D9B19B8E6F500E3762C /* Lab2-Simulatron.app */,
+				84240DBC19B8E6F600E3762C /* Lab2-SimulatronTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84240D9D19B8E6F500E3762C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84240D9E19B8E6F500E3762C /* Cocoa.framework */,
+				84240DBD19B8E6F600E3762C /* XCTest.framework */,
+				84240DA019B8E6F500E3762C /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84240DA019B8E6F500E3762C /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84240DA119B8E6F500E3762C /* AppKit.framework */,
+				84240DA219B8E6F500E3762C /* CoreData.framework */,
+				84240DA319B8E6F500E3762C /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		84240DA419B8E6F500E3762C /* Lab2-Simulatron */ = {
+			isa = PBXGroup;
+			children = (
+				8417973319C2223000E3CA1D /* Sounds */,
+				8446DA8219C100BF0039F0D1 /* Images */,
+				84240DB019B8E6F500E3762C /* AppDelegate.h */,
+				84240DB119B8E6F500E3762C /* AppDelegate.m */,
+				8491497D19C0D124009ADC71 /* ViewController.h */,
+				8491497E19C0D124009ADC71 /* ViewController.m */,
+				84240DB319B8E6F600E3762C /* MainMenu.xib */,
+				8417972519C20CC700E3CA1D /* StartGame.xib */,
+				8417972A19C20D5F00E3CA1D /* StartGameWindowController.h */,
+				8417972B19C20D5F00E3CA1D /* StartGameWindowController.m */,
+				8446DA8019C100380039F0D1 /* Images.xcassets */,
+				84240DA519B8E6F500E3762C /* Supporting Files */,
+			);
+			path = "Lab2-Simulatron";
+			sourceTree = "<group>";
+		};
+		84240DA519B8E6F500E3762C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84240DA619B8E6F500E3762C /* Lab2-Simulatron-Info.plist */,
+				84240DA719B8E6F500E3762C /* InfoPlist.strings */,
+				84240DAA19B8E6F500E3762C /* main.m */,
+				84240DAC19B8E6F500E3762C /* Lab2-Simulatron-Prefix.pch */,
+				84240DAD19B8E6F500E3762C /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84240DC219B8E6F600E3762C /* Lab2-SimulatronTests */ = {
+			isa = PBXGroup;
+			children = (
+				84240DC819B8E6F600E3762C /* Lab2_SimulatronTests.m */,
+				84240DC319B8E6F600E3762C /* Supporting Files */,
+			);
+			path = "Lab2-SimulatronTests";
+			sourceTree = "<group>";
+		};
+		84240DC319B8E6F600E3762C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84240DC419B8E6F600E3762C /* Lab2-SimulatronTests-Info.plist */,
+				84240DC519B8E6F600E3762C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8446DA8219C100BF0039F0D1 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				8446DA8319C100E50039F0D1 /* cockpit_default.png */,
+				8446DA8B19C10BE30039F0D1 /* Ebon_Hawk.png */,
+				8417972D19C217C300E3CA1D /* enemy_ship.png */,
+				8417972E19C217C300E3CA1D /* explosion.png */,
+				8417973A19C24F6700E3CA1D /* Red_Dot.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84240D9A19B8E6F500E3762C /* Lab2-Simulatron */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84240DCC19B8E6F600E3762C /* Build configuration list for PBXNativeTarget "Lab2-Simulatron" */;
+			buildPhases = (
+				84240D9719B8E6F500E3762C /* Sources */,
+				84240D9819B8E6F500E3762C /* Frameworks */,
+				84240D9919B8E6F500E3762C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lab2-Simulatron";
+			productName = "Lab2-Simulatron";
+			productReference = 84240D9B19B8E6F500E3762C /* Lab2-Simulatron.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84240DBB19B8E6F600E3762C /* Lab2-SimulatronTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84240DCF19B8E6F600E3762C /* Build configuration list for PBXNativeTarget "Lab2-SimulatronTests" */;
+			buildPhases = (
+				84240DB819B8E6F600E3762C /* Sources */,
+				84240DB919B8E6F600E3762C /* Frameworks */,
+				84240DBA19B8E6F600E3762C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84240DC119B8E6F600E3762C /* PBXTargetDependency */,
+			);
+			name = "Lab2-SimulatronTests";
+			productName = "Lab2-SimulatronTests";
+			productReference = 84240DBC19B8E6F600E3762C /* Lab2-SimulatronTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84240D9319B8E6F500E3762C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Dorin Gaiu";
+				TargetAttributes = {
+					84240DBB19B8E6F600E3762C = {
+						TestTargetID = 84240D9A19B8E6F500E3762C;
+					};
+				};
+			};
+			buildConfigurationList = 84240D9619B8E6F500E3762C /* Build configuration list for PBXProject "Lab2-Simulatron" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84240D9219B8E6F500E3762C;
+			productRefGroup = 84240D9C19B8E6F500E3762C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84240D9A19B8E6F500E3762C /* Lab2-Simulatron */,
+				84240DBB19B8E6F600E3762C /* Lab2-SimulatronTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84240D9919B8E6F500E3762C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8417973919C2238900E3CA1D /* explosion.mp3 in Resources */,
+				84240DA919B8E6F500E3762C /* InfoPlist.strings in Resources */,
+				8417972F19C217C300E3CA1D /* enemy_ship.png in Resources */,
+				8417973B19C24F6700E3CA1D /* Red_Dot.png in Resources */,
+				8417973519C2229400E3CA1D /* star_wars_MainTheme.mp3 in Resources */,
+				8446DA8119C100380039F0D1 /* Images.xcassets in Resources */,
+				8446DA8719C100E50039F0D1 /* cockpit_default.png in Resources */,
+				8446DA8C19C10BE30039F0D1 /* Ebon_Hawk.png in Resources */,
+				84240DAF19B8E6F500E3762C /* Credits.rtf in Resources */,
+				8417973019C217C300E3CA1D /* explosion.png in Resources */,
+				8417972619C20CC700E3CA1D /* StartGame.xib in Resources */,
+				84240DB519B8E6F600E3762C /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84240DBA19B8E6F600E3762C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84240DC719B8E6F600E3762C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84240D9719B8E6F500E3762C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8491497F19C0D124009ADC71 /* ViewController.m in Sources */,
+				84240DB219B8E6F500E3762C /* AppDelegate.m in Sources */,
+				8417972C19C20D5F00E3CA1D /* StartGameWindowController.m in Sources */,
+				84240DAB19B8E6F500E3762C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84240DB819B8E6F600E3762C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84240DC919B8E6F600E3762C /* Lab2_SimulatronTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84240DC119B8E6F600E3762C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84240D9A19B8E6F500E3762C /* Lab2-Simulatron */;
+			targetProxy = 84240DC019B8E6F600E3762C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84240DA719B8E6F500E3762C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84240DA819B8E6F500E3762C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		84240DAD19B8E6F500E3762C /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84240DAE19B8E6F500E3762C /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		84240DB319B8E6F600E3762C /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84240DB419B8E6F600E3762C /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		84240DC519B8E6F600E3762C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84240DC619B8E6F600E3762C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84240DCA19B8E6F600E3762C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		84240DCB19B8E6F600E3762C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		84240DCD19B8E6F600E3762C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Lab2-Simulatron/Lab2-Simulatron-Prefix.pch";
+				INFOPLIST_FILE = "Lab2-Simulatron/Lab2-Simulatron-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		84240DCE19B8E6F600E3762C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Lab2-Simulatron/Lab2-Simulatron-Prefix.pch";
+				INFOPLIST_FILE = "Lab2-Simulatron/Lab2-Simulatron-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		84240DD019B8E6F600E3762C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Lab2-Simulatron.app/Contents/MacOS/Lab2-Simulatron";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Lab2-Simulatron/Lab2-Simulatron-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Lab2-SimulatronTests/Lab2-SimulatronTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		84240DD119B8E6F600E3762C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Lab2-Simulatron.app/Contents/MacOS/Lab2-Simulatron";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Lab2-Simulatron/Lab2-Simulatron-Prefix.pch";
+				INFOPLIST_FILE = "Lab2-SimulatronTests/Lab2-SimulatronTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84240D9619B8E6F500E3762C /* Build configuration list for PBXProject "Lab2-Simulatron" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84240DCA19B8E6F600E3762C /* Debug */,
+				84240DCB19B8E6F600E3762C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84240DCC19B8E6F600E3762C /* Build configuration list for PBXNativeTarget "Lab2-Simulatron" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84240DCD19B8E6F600E3762C /* Debug */,
+				84240DCE19B8E6F600E3762C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84240DCF19B8E6F600E3762C /* Build configuration list for PBXNativeTarget "Lab2-SimulatronTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84240DD019B8E6F600E3762C /* Debug */,
+				84240DD119B8E6F600E3762C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84240D9319B8E6F500E3762C /* Project object */;
+}

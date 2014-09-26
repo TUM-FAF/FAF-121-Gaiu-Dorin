@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DORIN-PC</Machine>
+    <WindowsUser>Dorin</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>37fdc35b-d344-4895-aeed-ec4a21e9677f</PackageIdentityName>
+    <RegisteredManifestChecksum>532F6A854CE0B96BBE9DB5C7CD0C09A70DBD48CE6E5A2760A00ADB58FDA1E1A0</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>37fdc35b-d344-4895-aeed-ec4a21e9677f_1.0.0.0_neutral__zgtpayfj4x8yp</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>37fdc35b-d344-4895-aeed-ec4a21e9677f_zgtpayfj4x8yp!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>37fdc35b-d344-4895-aeed-ec4a21e9677f</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Dorin</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Dorin\documents\visual studio 2013\Projects\MetroLastApp\MetroLastApp\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-06-18T22:09:56.405</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Dorin\documents\visual studio 2013\Projects\MetroLastApp\MetroLastApp\bin\Debug\MetroLastApp.exe">
+      <PackagePath>MetroLastApp.exe</PackagePath>
+      <Modified>2014-09-24T17:41:34.411</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dorin\documents\visual studio 2013\Projects\MetroLastApp\MetroLastApp\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-06-18T23:00:41.010</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dorin\documents\visual studio 2013\Projects\MetroLastApp\MetroLastApp\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-06-18T23:02:06.072</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dorin\documents\visual studio 2013\Projects\MetroLastApp\MetroLastApp\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-06-18T22:57:24.607</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dorin\documents\visual studio 2013\Projects\MetroLastApp\MetroLastApp\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-06-18T23:01:45.844</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dorin\documents\visual studio 2013\Projects\MetroLastApp\MetroLastApp\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2014-06-18T22:09:55.692</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dorin\documents\visual studio 2013\Projects\MetroLastApp\MetroLastApp\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2014-09-24T17:41:34.210</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dorin\documents\visual studio 2013\Projects\MetroLastApp\MetroLastApp\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2014-06-18T22:09:56.103</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

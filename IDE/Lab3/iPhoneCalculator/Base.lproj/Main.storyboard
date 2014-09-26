@@ -1,0 +1,621 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="pJY-6M-vvt">
+    <dependencies>
+        <deployment defaultVersion="1552" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R3f-oY-ge1">
+                                <rect key="frame" x="240" y="412" width="79" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="79" id="hwk-9z-X8V"/>
+                                    <constraint firstAttribute="height" constant="77" id="zvr-ZH-mYD"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <state key="normal" title="+">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="didTapOperator:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="ggb-NA-JqI"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TGx-El-Sxp">
+                                <rect key="frame" x="1" y="490" width="158" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="158" id="PKj-Eh-SfP"/>
+                                    <constraint firstAttribute="height" constant="77" id="yiW-Zb-95q"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <state key="normal" title="0">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="didTapNumber:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Mi3-F8-GvR"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zYB-J9-hvQ">
+                                <rect key="frame" x="240" y="490" width="79" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="77" id="96q-SH-I5h"/>
+                                    <constraint firstAttribute="width" constant="79" id="Tby-je-wb4"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <state key="normal" title="=">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="didTapEqual:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="RhA-Nk-aa6"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wRt-oT-k6j">
+                                <rect key="frame" x="160" y="490" width="79" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="77" id="O18-7x-05k"/>
+                                    <constraint firstAttribute="width" constant="79" id="gnE-c0-2M9"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <state key="normal" title=".">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="didTapDot:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="k1j-KD-KMf"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KAP-Se-ycJ">
+                                <rect key="frame" x="160" y="412" width="79" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="77" id="aTR-bt-5WZ"/>
+                                    <constraint firstAttribute="width" constant="79" id="dbG-aX-LEu"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <state key="normal" title="3">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="didTapNumber:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="3hf-Js-H09"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lry-dK-d7y">
+                                <rect key="frame" x="80" y="412" width="79" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="77" id="07E-nm-Zif"/>
+                                    <constraint firstAttribute="width" constant="79" id="8ym-gc-KYb"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <state key="normal" title="2">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="didTapNumber:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="TJ7-nk-nbr"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n2m-S2-FCl">
+                                <rect key="frame" x="1" y="412" width="78" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="78" id="Di4-rx-2BN"/>
+                                    <constraint firstAttribute="height" constant="77" id="Wz9-5b-F09"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <state key="normal" title="1">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="didTapNumber:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="LET-97-g7I"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3kP-Mo-qcb">
+                                <rect key="frame" x="240" y="334" width="79" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="79" id="TE5-t0-w1S"/>
+                                    <constraint firstAttribute="height" constant="77" id="h6k-fz-F9q"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <state key="normal" title="-">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="didTapOperator:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="XXc-Ma-SdR"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9F6-9b-JAx">
+                                <rect key="frame" x="160" y="334" width="79" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="79" id="fm2-4U-Ssc"/>
+                                    <constraint firstAttribute="height" constant="77" id="lhT-X7-KzL"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <state key="normal" title="6">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="didTapNumber:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="1Ak-cm-SBj"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PXX-5n-qkI">
+                                <rect key="frame" x="80" y="334" width="79" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="79" id="A14-DO-ajg"/>
+                                    <constraint firstAttribute="height" constant="77" id="H1G-LR-DxI"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <state key="normal" title="5">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="didTapNumber:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="ZUf-N6-6ln"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iUi-qO-4ba">
+                                <rect key="frame" x="1" y="334" width="78" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="77" id="YTC-lg-tvU"/>
+                                    <constraint firstAttribute="width" constant="78" id="ixZ-vI-XLJ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <state key="normal" title="4">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="didTapNumber:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="T8C-Nn-k7N"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vUV-fc-wEm">
+                                <rect key="frame" x="240" y="256" width="79" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="77" id="FwL-nz-eSu"/>
+                                    <constraint firstAttribute="width" constant="79" id="nTH-8n-UCM"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <state key="normal" title="X">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="didTapOperator:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="jWj-sE-lQ4"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9MW-Eb-Sso">
+                                <rect key="frame" x="160" y="256" width="79" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="79" id="5hB-wc-gge"/>
+                                    <constraint firstAttribute="height" constant="77" id="UE9-Du-apn"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <state key="normal" title="9">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="didTapNumber:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="k2O-DN-fX9"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qkb-dU-VCv">
+                                <rect key="frame" x="80" y="256" width="79" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="79" id="LKy-ff-bIz"/>
+                                    <constraint firstAttribute="height" constant="77" id="PsF-Bc-Smc"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <state key="normal" title="8">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="didTapNumber:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="bMq-AJ-HL1"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Bz-iu-kcN">
+                                <rect key="frame" x="1" y="256" width="78" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="78" id="CDC-bB-x6N"/>
+                                    <constraint firstAttribute="height" constant="77" id="gzF-Og-6UA"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <state key="normal" title="7">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="didTapNumber:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="D69-la-GR6"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QtT-sC-XJx">
+                                <rect key="frame" x="240" y="178" width="79" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="77" id="IbS-5N-VnC"/>
+                                    <constraint firstAttribute="width" constant="79" id="NHE-3F-bO4"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <state key="normal" title="/">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="didTapOperator:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="eRv-VU-rVY"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M7S-0g-9qu">
+                                <rect key="frame" x="160" y="178" width="79" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="77" id="6Jb-Ch-jDc"/>
+                                    <constraint firstAttribute="width" constant="79" id="7BT-zf-UxB"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <state key="normal" title="%">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="didTapOperator:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Ufq-HS-Br5"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JTe-wF-pJu">
+                                <rect key="frame" x="80" y="178" width="79" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="79" id="PDM-oo-YNg"/>
+                                    <constraint firstAttribute="height" constant="77" id="pxH-Mo-9w5"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <state key="normal" title="^">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="didTapOperator:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="qIV-Ht-0DC"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vfr-HP-H3B">
+                                <rect key="frame" x="1" y="178" width="78" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="77" id="V33-2n-oCF"/>
+                                    <constraint firstAttribute="width" constant="78" id="Zz1-fw-7U8"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <state key="normal" title="C">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="didTapClear:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="GWh-fV-xk0"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZOE-br-YO6">
+                                <rect key="frame" x="10" y="93" width="300" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="O6a-LY-4yU"/>
+                                    <constraint firstAttribute="height" constant="70" id="nlL-aT-Xad"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="29"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="infoLight" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JcG-nY-qku">
+                                <rect key="frame" x="10" y="20" width="22" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="didTapInfoButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="5sZ-w0-dvP"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="wRt-oT-k6j" secondAttribute="bottom" constant="1" id="0KS-M1-uAf"/>
+                            <constraint firstItem="qkb-dU-VCv" firstAttribute="leading" secondItem="5Bz-iu-kcN" secondAttribute="trailing" constant="1" id="0qh-YW-5H1"/>
+                            <constraint firstItem="KAP-Se-ycJ" firstAttribute="top" secondItem="9F6-9b-JAx" secondAttribute="bottom" constant="1" id="2gv-za-dvJ"/>
+                            <constraint firstItem="9F6-9b-JAx" firstAttribute="leading" secondItem="PXX-5n-qkI" secondAttribute="trailing" constant="1" id="6Dq-Dx-KVc"/>
+                            <constraint firstItem="JTe-wF-pJu" firstAttribute="leading" secondItem="vfr-HP-H3B" secondAttribute="trailing" constant="1" id="7HI-gn-jnO"/>
+                            <constraint firstItem="3kP-Mo-qcb" firstAttribute="top" secondItem="vUV-fc-wEm" secondAttribute="bottom" constant="1" id="7NC-X5-lCd"/>
+                            <constraint firstAttribute="trailing" secondItem="ZOE-br-YO6" secondAttribute="trailing" constant="10" id="AMq-3s-c8y"/>
+                            <constraint firstItem="vUV-fc-wEm" firstAttribute="top" secondItem="QtT-sC-XJx" secondAttribute="bottom" constant="1" id="BCd-v4-FvQ"/>
+                            <constraint firstItem="TGx-El-Sxp" firstAttribute="top" secondItem="n2m-S2-FCl" secondAttribute="bottom" constant="1" id="E9c-gl-v4X"/>
+                            <constraint firstItem="vfr-HP-H3B" firstAttribute="top" secondItem="ZOE-br-YO6" secondAttribute="bottom" constant="15" id="GRb-vj-sgc"/>
+                            <constraint firstItem="9MW-Eb-Sso" firstAttribute="leading" secondItem="qkb-dU-VCv" secondAttribute="trailing" constant="1" id="Got-pU-dCO"/>
+                            <constraint firstItem="QtT-sC-XJx" firstAttribute="leading" secondItem="M7S-0g-9qu" secondAttribute="trailing" constant="1" id="Gun-dJ-htA"/>
+                            <constraint firstItem="PXX-5n-qkI" firstAttribute="top" secondItem="qkb-dU-VCv" secondAttribute="bottom" constant="1" id="PAR-np-Sg1"/>
+                            <constraint firstItem="wRt-oT-k6j" firstAttribute="top" secondItem="KAP-Se-ycJ" secondAttribute="bottom" constant="1" id="Tva-nG-lJ5"/>
+                            <constraint firstItem="zYB-J9-hvQ" firstAttribute="leading" secondItem="wRt-oT-k6j" secondAttribute="trailing" constant="1" id="UMH-lA-JDU"/>
+                            <constraint firstItem="JcG-nY-qku" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="10" id="XI6-Ia-mDd"/>
+                            <constraint firstItem="vUV-fc-wEm" firstAttribute="leading" secondItem="9MW-Eb-Sso" secondAttribute="trailing" constant="1" id="ZX5-VE-Asy"/>
+                            <constraint firstAttribute="trailing" secondItem="vUV-fc-wEm" secondAttribute="trailing" constant="1" id="aRS-le-hiI"/>
+                            <constraint firstItem="wRt-oT-k6j" firstAttribute="leading" secondItem="TGx-El-Sxp" secondAttribute="trailing" constant="1" id="bdA-jy-hsh"/>
+                            <constraint firstItem="TGx-El-Sxp" firstAttribute="top" secondItem="Lry-dK-d7y" secondAttribute="bottom" constant="1" id="c08-q4-UDD"/>
+                            <constraint firstItem="R3f-oY-ge1" firstAttribute="top" secondItem="3kP-Mo-qcb" secondAttribute="bottom" constant="1" id="c8z-fl-reJ"/>
+                            <constraint firstItem="M7S-0g-9qu" firstAttribute="leading" secondItem="JTe-wF-pJu" secondAttribute="trailing" constant="1" id="dSb-go-T2B"/>
+                            <constraint firstItem="KAP-Se-ycJ" firstAttribute="leading" secondItem="Lry-dK-d7y" secondAttribute="trailing" constant="1" id="fVM-37-BXn"/>
+                            <constraint firstItem="n2m-S2-FCl" firstAttribute="top" secondItem="iUi-qO-4ba" secondAttribute="bottom" constant="1" id="ffh-Dc-a2Y"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="zYB-J9-hvQ" secondAttribute="bottom" constant="1" id="iIX-3M-Wfv"/>
+                            <constraint firstAttribute="trailing" secondItem="zYB-J9-hvQ" secondAttribute="trailing" constant="1" id="isg-Ig-H39"/>
+                            <constraint firstAttribute="trailing" secondItem="QtT-sC-XJx" secondAttribute="trailing" constant="1" id="jeK-JB-ZHe"/>
+                            <constraint firstItem="Lry-dK-d7y" firstAttribute="top" secondItem="PXX-5n-qkI" secondAttribute="bottom" constant="1" id="kcw-EV-Dyr"/>
+                            <constraint firstAttribute="trailing" secondItem="3kP-Mo-qcb" secondAttribute="trailing" constant="1" id="kmA-tl-OXM"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="TGx-El-Sxp" secondAttribute="bottom" constant="1" id="mJj-m4-8wl"/>
+                            <constraint firstItem="5Bz-iu-kcN" firstAttribute="top" secondItem="vfr-HP-H3B" secondAttribute="bottom" constant="1" id="npT-eX-nUn"/>
+                            <constraint firstItem="iUi-qO-4ba" firstAttribute="top" secondItem="5Bz-iu-kcN" secondAttribute="bottom" constant="1" id="py2-1G-SC8"/>
+                            <constraint firstItem="9F6-9b-JAx" firstAttribute="top" secondItem="9MW-Eb-Sso" secondAttribute="bottom" constant="1" id="qT3-Vy-u6H"/>
+                            <constraint firstAttribute="trailing" secondItem="R3f-oY-ge1" secondAttribute="trailing" constant="1" id="qZf-Oe-Jwd"/>
+                            <constraint firstItem="R3f-oY-ge1" firstAttribute="leading" secondItem="KAP-Se-ycJ" secondAttribute="trailing" constant="1" id="sLZ-0f-IIN"/>
+                            <constraint firstItem="zYB-J9-hvQ" firstAttribute="top" secondItem="R3f-oY-ge1" secondAttribute="bottom" constant="1" id="sgt-2d-Kij"/>
+                            <constraint firstItem="3kP-Mo-qcb" firstAttribute="leading" secondItem="9F6-9b-JAx" secondAttribute="trailing" constant="1" id="ss8-0c-TKO"/>
+                            <constraint firstItem="qkb-dU-VCv" firstAttribute="top" secondItem="JTe-wF-pJu" secondAttribute="bottom" constant="1" id="vhi-bX-IKc"/>
+                            <constraint firstItem="Lry-dK-d7y" firstAttribute="leading" secondItem="n2m-S2-FCl" secondAttribute="trailing" constant="1" id="wRk-is-NdX"/>
+                            <constraint firstItem="PXX-5n-qkI" firstAttribute="leading" secondItem="iUi-qO-4ba" secondAttribute="trailing" constant="1" id="yBh-ay-kdr"/>
+                            <constraint firstItem="9MW-Eb-Sso" firstAttribute="top" secondItem="M7S-0g-9qu" secondAttribute="bottom" constant="1" id="yTc-sV-9ls"/>
+                            <constraint firstItem="JcG-nY-qku" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" id="zOw-nM-A0z"/>
+                        </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="6F3-2m-aRD" appends="YES" id="YOz-Yy-AkU"/>
+                        </connections>
+                    </view>
+                    <navigationItem key="navigationItem" id="RUj-I4-GdV"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <connections>
+                        <outlet property="calculatorDisplay" destination="ZOE-br-YO6" id="3vH-Bl-kKs"/>
+                        <outlet property="swipeRightSettings" destination="3d4-bV-v87" id="oCH-8B-VRT"/>
+                        <outlet property="swipeUpProperty" destination="6F3-2m-aRD" id="63P-es-03d"/>
+                        <outletCollection property="operatorsOutlet" destination="QtT-sC-XJx" id="hvt-My-hev"/>
+                        <outletCollection property="operatorsOutlet" destination="vUV-fc-wEm" id="5Tt-D5-gVk"/>
+                        <outletCollection property="operatorsOutlet" destination="3kP-Mo-qcb" id="w22-Vh-frT"/>
+                        <outletCollection property="operatorsOutlet" destination="R3f-oY-ge1" id="91n-D1-EXM"/>
+                        <outletCollection property="operatorsOutlet" destination="zYB-J9-hvQ" id="7QN-pb-0Kf"/>
+                        <outletCollection property="numbersOutlet" destination="TGx-El-Sxp" id="Wre-mI-E86"/>
+                        <outletCollection property="numbersOutlet" destination="wRt-oT-k6j" id="EjP-wi-uAR"/>
+                        <outletCollection property="numbersOutlet" destination="n2m-S2-FCl" id="Z9x-wI-FSd"/>
+                        <outletCollection property="numbersOutlet" destination="Lry-dK-d7y" id="dUG-US-s5L"/>
+                        <outletCollection property="numbersOutlet" destination="KAP-Se-ycJ" id="sQS-YP-E5V"/>
+                        <outletCollection property="numbersOutlet" destination="9F6-9b-JAx" id="NBG-2z-uv8"/>
+                        <outletCollection property="numbersOutlet" destination="PXX-5n-qkI" id="3LF-SQ-PGt"/>
+                        <outletCollection property="numbersOutlet" destination="iUi-qO-4ba" id="dlJ-Xb-HYo"/>
+                        <outletCollection property="numbersOutlet" destination="9MW-Eb-Sso" id="bqA-0Z-x3H"/>
+                        <outletCollection property="numbersOutlet" destination="qkb-dU-VCv" id="0g4-p6-dXA"/>
+                        <outletCollection property="numbersOutlet" destination="5Bz-iu-kcN" id="3bC-Pi-41F"/>
+                        <outletCollection property="numbersOutlet" destination="vfr-HP-H3B" id="dFl-XT-qGd"/>
+                        <outletCollection property="numbersOutlet" destination="JTe-wF-pJu" id="rKD-yB-a5R"/>
+                        <outletCollection property="numbersOutlet" destination="M7S-0g-9qu" id="efz-9R-4uT"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="right" id="6F3-2m-aRD">
+                    <connections>
+                        <segue destination="6IP-ug-HZp" kind="modal" id="utb-pU-9b9"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="right" id="3d4-bV-v87">
+                    <connections>
+                        <action selector="swRightSettings:" destination="vXZ-lx-hvc" id="k5a-2p-40f"/>
+                    </connections>
+                </swipeGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="592" y="-285"/>
+        </scene>
+        <!--Settings View Controller-->
+        <scene sceneID="CY5-mD-yEk">
+            <objects>
+                <viewController storyboardIdentifier="SettingsViewController" id="lnN-F7-zvp" customClass="SettingsViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ecx-az-3dN"/>
+                        <viewControllerLayoutGuide type="bottom" id="xfE-3O-iMw"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="glI-8a-dew">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Color Preset 1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8ch-cW-efd">
+                                <rect key="frame" x="59" y="147" width="124" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Color Preset 2" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mw9-Z0-bxw">
+                                <rect key="frame" x="59" y="197" width="124" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ska-at-ldi">
+                                <rect key="frame" x="212" y="142" width="51" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="onTintColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <action selector="colorSwitch1:" destination="lnN-F7-zvp" eventType="valueChanged" id="8Dz-Dy-i4C"/>
+                                </connections>
+                            </switch>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="KpA-QX-pLy">
+                                <rect key="frame" x="212" y="192" width="51" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="onTintColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <action selector="colorSwitch2:" destination="lnN-F7-zvp" eventType="valueChanged" id="00I-n7-Kre"/>
+                                </connections>
+                            </switch>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dJV-bV-it1">
+                                <rect key="frame" x="0.0" y="20" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.50196081399917603" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="barTintColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <textAttributes key="titleTextAttributes">
+                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                </textAttributes>
+                                <items>
+                                    <navigationItem title="Settings" id="Dld-yA-Z4M">
+                                        <barButtonItem key="leftBarButtonItem" systemItem="save" id="AVe-1g-mgY">
+                                            <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                            <connections>
+                                                <action selector="didTapSaveButton:" destination="lnN-F7-zvp" id="BEM-dj-uUd"/>
+                                            </connections>
+                                        </barButtonItem>
+                                        <barButtonItem key="rightBarButtonItem" systemItem="cancel" id="Onk-B8-sfn">
+                                            <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                            <connections>
+                                                <action selector="didTapCancelButton:" destination="lnN-F7-zvp" id="5Ln-xK-77F"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="KpA-QX-pLy" firstAttribute="top" secondItem="Ska-at-ldi" secondAttribute="bottom" constant="19" id="1Cm-DK-M7s"/>
+                            <constraint firstItem="KpA-QX-pLy" firstAttribute="centerY" secondItem="Mw9-Z0-bxw" secondAttribute="centerY" id="4MP-fG-2ZS"/>
+                            <constraint firstItem="Ska-at-ldi" firstAttribute="leading" secondItem="8ch-cW-efd" secondAttribute="trailing" constant="29" id="5la-L3-X0N"/>
+                            <constraint firstItem="Ska-at-ldi" firstAttribute="centerY" secondItem="8ch-cW-efd" secondAttribute="centerY" id="EJG-nD-j1O"/>
+                            <constraint firstItem="KpA-QX-pLy" firstAttribute="leading" secondItem="Ska-at-ldi" secondAttribute="leading" id="FJS-wL-RVK"/>
+                            <constraint firstAttribute="trailing" secondItem="dJV-bV-it1" secondAttribute="trailing" id="G2M-aU-XgH"/>
+                            <constraint firstItem="8ch-cW-efd" firstAttribute="leading" secondItem="glI-8a-dew" secondAttribute="leading" constant="59" id="GHJ-qD-r8i"/>
+                            <constraint firstItem="dJV-bV-it1" firstAttribute="leading" secondItem="glI-8a-dew" secondAttribute="leading" id="JmH-fw-GjT"/>
+                            <constraint firstItem="Mw9-Z0-bxw" firstAttribute="leading" secondItem="8ch-cW-efd" secondAttribute="leading" id="ZDZ-yG-p7T"/>
+                            <constraint firstItem="8ch-cW-efd" firstAttribute="trailing" secondItem="Mw9-Z0-bxw" secondAttribute="trailing" id="azp-Nd-HGX"/>
+                            <constraint firstItem="Ska-at-ldi" firstAttribute="top" secondItem="dJV-bV-it1" secondAttribute="bottom" constant="78" id="rhD-Ed-sFI"/>
+                            <constraint firstAttribute="trailing" secondItem="Ska-at-ldi" secondAttribute="trailing" constant="59" id="zRC-kM-jSe"/>
+                            <constraint firstItem="dJV-bV-it1" firstAttribute="top" secondItem="ecx-az-3dN" secondAttribute="bottom" id="zpy-Up-B02"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="colorSwitch1Outlet" destination="Ska-at-ldi" id="O5X-Qf-9kj"/>
+                        <outlet property="colorSwitch2Outlet" destination="KpA-QX-pLy" id="F2W-wW-Bi5"/>
+                        <outlet property="topBarOutlet" destination="dJV-bV-it1" id="AWb-t0-OkC"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Pck-HF-23m" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1008" y="-285"/>
+        </scene>
+        <!--LogV Iew Controller-->
+        <scene sceneID="ygA-4a-Ib4">
+            <objects>
+                <viewController storyboardIdentifier="LogViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="6IP-ug-HZp" customClass="LogVIewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="hRk-TI-Qmp"/>
+                        <viewControllerLayoutGuide type="bottom" id="JCl-SZ-rFb"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="V48-Kk-poi">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="gqW-hX-spZ">
+                                <rect key="frame" x="0.0" y="44" width="320" height="524"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="separatorColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="CellID" id="WAR-rC-m7e">
+                                        <rect key="frame" x="0.0" y="22" width="320" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="WAR-rC-m7e" id="SUa-5V-byP">
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="6IP-ug-HZp" id="kvs-rM-1wx"/>
+                                    <outlet property="delegate" destination="6IP-ug-HZp" id="xEv-8y-2C7"/>
+                                </connections>
+                            </tableView>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yJJ-g3-ohf">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="barTintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <textAttributes key="titleTextAttributes">
+                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                </textAttributes>
+                                <items>
+                                    <navigationItem title="Logs" id="u2Z-m6-Rht">
+                                        <barButtonItem key="leftBarButtonItem" title="Return" id="3Nt-eL-sH3">
+                                            <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                            <connections>
+                                                <action selector="didTapReturn:" destination="6IP-ug-HZp" id="YQO-nj-7RB"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                    </view>
+                    <connections>
+                        <outlet property="tableViewLog" destination="gqW-hX-spZ" id="I51-Lu-Ydn"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vfk-zN-wtC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="592" y="383"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Dhh-GG-IMy">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="pJY-6M-vvt" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="etX-Lf-DMs">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="vXZ-lx-hvc" kind="relationship" relationship="rootViewController" id="rYr-II-UVq"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zxq-sL-yXe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="141" y="-285"/>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
